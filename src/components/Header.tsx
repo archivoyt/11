@@ -46,15 +46,6 @@ export default function Header() {
       </div>
 
       {/* Header principal compacto */}
-      <div className="bg-white/98 backdrop-blur-xl border-b border-blue-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="flex justify-between items-center py-2">
-            {/* Logo optimizado */}
-            <Link to="/" className="flex items-center space-x-2 hover:scale-105 transition-transform">
-              <div className="flex items-center justify-center">
-                <img 
-                  src="/wasabilogo.jpg" 
-                  alt="Wasabi Trader Logo" 
                   className="h-8 w-auto object-contain rounded-md"
                 />
               </div>
