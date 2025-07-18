@@ -53,8 +53,11 @@ export default function Header() {
             <Link to="/" className="flex items-center space-x-2 hover:scale-105 transition-transform">
               <div className="flex items-center justify-center">
                 <img 
-                  src="/wasabi-azul-2.png" 
+                  src="/wasabilogo.jpg" 
                   alt="Wasabi Trader Logo" 
+                  className="h-8 w-auto object-contain rounded-md"
+                  style={{ maxWidth: '100%', height: 'auto' }}
+                />
                   className="h-8 w-auto object-contain"
                   style={{ maxWidth: '100%', height: 'auto' }}
                 />
