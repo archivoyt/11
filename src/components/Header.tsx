@@ -51,8 +51,13 @@ export default function Header() {
           <div className="flex justify-between items-center py-2">
             {/* Logo optimizado */}
             <Link to="/" className="flex items-center space-x-2 hover:scale-105 transition-transform">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
-                <Zap className="w-5 h-5 text-white" />
+              <div className="flex items-center justify-center">
+                <img 
+                  src="/wasabi-azul-2.png" 
+                  alt="Wasabi Trader Logo" 
+                  className="h-8 w-auto object-contain"
+                  style={{ maxWidth: '100%', height: 'auto' }}
+                />
               </div>
               <div>
                 <h1 className="text-lg font-black text-gray-900 leading-tight">Wasabi Trader</h1>
