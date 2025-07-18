@@ -56,7 +56,6 @@ export default function Header() {
                   src="/wasabilogo.jpg" 
                   alt="Wasabi Trader Logo" 
                   className="h-8 w-auto object-contain rounded-md"
-                  style={{ maxWidth: '100%', height: 'auto' }}
                 />
               </div>
               <div>
