@@ -58,9 +58,6 @@ export default function Header() {
                   className="h-8 w-auto object-contain rounded-md"
                   style={{ maxWidth: '100%', height: 'auto' }}
                 />
-                  className="h-8 w-auto object-contain"
-                  style={{ maxWidth: '100%', height: 'auto' }}
-                />
               </div>
               <div>
                 <h1 className="text-lg font-black text-gray-900 leading-tight">Wasabi Trader</h1>
